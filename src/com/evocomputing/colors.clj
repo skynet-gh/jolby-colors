@@ -33,6 +33,7 @@ http://cran.r-project.org/web/packages/colorspace/index.html
        :author "Joel Boehland"}
 
   com.evocomputing.colors
+  (:refer-clojure :exclude [abs])
   (:import (java.awt Color))
   (:require [com.evocomputing.colors.palettes.webcolors :as wc]
             [clojure.math.numeric-tower :refer [abs round]]))
